@@ -105,13 +105,13 @@ footer.composer-footer .composer-list {
     justify-content: center;
 }
 
-/* Estilos para los elementos de la lista de integrantes */
+/* Estilos para la lista de integrantes */
 footer.composer-footer .composer-list li {
     margin: 0 100px;
     font-size: 28px;
 }
 
-/* Agregar subrayado al texto al pasar el cursor sobre los elementos de la lista de integrantes */
+/* subrayado al texto al pasar el cursor sobre los integrantes */
 footer.composer-footer .composer-list li:hover {
     text-decoration: underline;
 }
