@@ -6,10 +6,11 @@ const blackKeys = document.querySelectorAll(".key.black");
 
 keys.forEach(key => key.addEventListener("click",handleKeyClick));
 
+//funcion para tocar las teclas con el mouse
 function handleKeyClick(){
     playKey(this);
 }
-
+//funcion para tocar las teclas con el teclado
 function playKey(key){
 
 const keyAudio = document.getElementById(key.dataset.note);
